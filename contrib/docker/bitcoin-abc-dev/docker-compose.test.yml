@@ -1,0 +1,5 @@
+sut:
+  build:
+    context: .
+    dockerfile: contrib/docker/bitcoin-abc-dev/Dockerfile
+  command: contrib/devtools/build_cmake.sh all check-all
